@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ff0000;
+  min-height: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+  title {
+    display: block;
+  }
+}
+
+.person-selector {
+  margin: 1em auto;
+}
+
+.loading {
+  margin-top: 10em;
+}
